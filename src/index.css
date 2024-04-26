@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+.active-nav-link {
+  color: black;
+  text-decoration: underline;
+}
